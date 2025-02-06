@@ -92,13 +92,29 @@
     <a href="/galeria" class="btn btn-warning">Galería</a>
     <a href="/logros" class="btn btn-info">Logros</a>
   </nav>
+    
+<!-- Navbar con ScrollSpy -->
+<nav id="navbar-galeria" class="navbar bg-body-tertiary px-3 mb-3">
+  <a class="navbar-brand" href="#">Navegación</a>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="#imagenes">Ir a Imágenes</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#videos">Ir a Videos</a>
+    </li>
+  </ul>
+</nav>
+
 
   <section>
     <h2>Galería</h2>
+    
     <p>Aquí puedes ver algunas imágenes y videos de mi Saturn L300.</p>
     
    
-    <h3>Imágenes</h3>
+    <h3 id="imagenes">Imágenes</h3>
+
     <div class="contenedor-galeria">
       <figure>
         <img src="/img/imagen1.jpg" alt="Imagen 1 Saturn L300">
@@ -149,7 +165,8 @@
     </div>
 
   
-    <h3>Videos</h3>
+    <h3 id="videos">Videos</h3>
+
     <div class="contenedor-videos">
       <figure>
         <video controls>
